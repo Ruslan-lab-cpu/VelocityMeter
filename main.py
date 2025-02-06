@@ -1,6 +1,6 @@
 velocity = 0
-time = 10
-S = 9000
+time = int(input('Enter time'))
+S = int(input('Enter distance'))
 
 velocity = S / time
 print(velocity)
